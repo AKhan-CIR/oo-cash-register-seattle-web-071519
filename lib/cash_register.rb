@@ -20,7 +20,7 @@ class CashRegister
     def apply_discount #instance method
         if discount != 0
             @total = (total - (total.to_f * (discount.to_f/100)))
-            p "After the discount, the total comes to $#{@total.to_i}"
+            p "After the discount, the total comes to $#{@total.to_f(0)}"
         else p "There is no discount to apply"
         end
     end
