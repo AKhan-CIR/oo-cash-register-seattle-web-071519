@@ -33,7 +33,7 @@ class CashRegister
         
 
     def void_last_transaction #instance method
-        #'subtracts the last transaction from the total'
+        @total -= @last_transaction_amount
     end
 
         
