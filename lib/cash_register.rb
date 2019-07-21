@@ -18,7 +18,7 @@ class CashRegister
       self.total += (price * quantity)
 
         #'also accepts an optional quantity'
-        quantity.times do #For quantity add each item to [items]
+        quantity.times do
             items << title
         end
 
