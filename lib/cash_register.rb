@@ -15,7 +15,7 @@ class CashRegister
     def add_item(title,price,quantity=1) #instance method
 
         #'accepts a title and a price and increases the total' 
-        @total += price * quantity 
+      self.total += (price * quantity)
 
         #'also accepts an optional quantity'
         quantity.times do #For quantity add each item to [items]
