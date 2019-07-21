@@ -24,12 +24,6 @@ class CashRegister
         else p "There is no discount to apply."
         end
     end
-        #'applies the discount to the total price'
-        #'returns success message with updated total' 
-        #'reduces the total'
-
-        #if no employee discount
-        #'returns a string error message that there is no discount to apply'
         
 
     def void_last_transaction #instance method
